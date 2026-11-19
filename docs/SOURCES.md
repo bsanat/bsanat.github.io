@@ -2,7 +2,7 @@
 
 ## Biography and affiliations
 
-Biography, Cushpen Group experience, university, skills and professional contacts are based on the user-supplied `Sanat_Bogenbaev_CV_RU_Updated.pdf`. An unchanged copy is available at `assets/documents/Sanat-Bogenbaev-CV.pdf`. The owner requested a Russian interface and named Aqbóbek International School separately; no school attendance dates were supplied or invented.
+Biography, Cushpen Group experience, university, skills and professional contacts are based on the user-supplied `Sanat_Bogenbaev_CV_RU_Updated.pdf`. An unchanged copy is available at `assets/documents/Sanat-Bogenbayev-CV.pdf`. The owner requested a Russian interface and named Aqbóbek International School separately; no school attendance dates were supplied or invented.
 
 The selected projects are exactly MedPredict, JobHub and Мұра. Avicenna and Zaman AI were removed from the website at the owner's request. The original downloadable CV is unchanged.
 

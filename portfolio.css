@@ -24,7 +24,7 @@ a.skip:focus { transform: none; }
 .site-header { align-items: center; border-bottom: 1px solid var(--rule); }
 nav, footer div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
 .identity { display: flex; align-items: center; gap: 14px; }
-.portrait { flex: none; object-fit: cover; object-position: center 20%; border: 1px solid var(--rule); border-radius: 50%; }
+.portrait { display: block; width: 64px; height: 64px; flex: none; object-fit: cover; object-position: center 20%; border: 1px solid var(--rule); border-radius: 50%; }
 .identity p, .muted, .project-heading span, footer { color: var(--muted); }
 nav a { display: inline-flex; align-items: center; gap: 5px; min-height: 28px; text-decoration: none; }
 nav img { filter: brightness(0); }

@@ -17,6 +17,6 @@ assert.deepEqual(
   [...html.matchAll(/<a class="project-image" href="[^"]+" aria-label="Open ([^"]+)"/g)].map(match => match[1]),
   ['JobHub', 'Kitapsoresi'],
 );
-assert.match(html, /href="assets\/documents\/Sanat-Bogenbaev-CV\.pdf"/);
+assert.match(html, /href="assets\/documents\/Sanat-Bogenbayev-CV\.pdf"/);
 assert.match(html, /href="assets\/favicon\.svg"/);
 assert.equal(fs.readFileSync(path.join(__dirname, 'CNAME'), 'utf8').trim(), 'bogenbayevsanat.me');
