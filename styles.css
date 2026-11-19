@@ -21,8 +21,10 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 a.skip { position: absolute; top: 8px; transform: translateY(-200%); }
 a.skip:focus { transform: none; }
 .site-header, footer { display: flex; align-items: baseline; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; padding-block: 24px; }
-.site-header { border-bottom: 1px solid var(--rule); }
-.identity, nav, footer div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
+.site-header { align-items: center; border-bottom: 1px solid var(--rule); }
+nav, footer div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
+.identity { display: flex; align-items: center; gap: 14px; }
+.portrait { flex: none; object-fit: cover; object-position: center 20%; border: 1px solid var(--rule); border-radius: 50%; }
 .identity p, .muted, .project-heading span, footer { color: var(--muted); }
 nav a { display: inline-flex; align-items: center; gap: 5px; min-height: 28px; text-decoration: none; }
 nav img { filter: brightness(0); }

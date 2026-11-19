@@ -12,7 +12,7 @@ for (const [, url] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
   }
 }
 
-assert.match(html, /<title>Sanat Bogenbaev — Full Stack Developer<\/title>/);
+assert.match(html, /<title>Sanat Bogenbayev — Full Stack Developer<\/title>/);
 assert.deepEqual(
   [...html.matchAll(/<a class="project-image" href="[^"]+" aria-label="Open ([^"]+)"/g)].map(match => match[1]),
   ['JobHub', 'Kitapsoresi'],
