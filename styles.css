@@ -32,6 +32,8 @@ nav a:hover { text-decoration: underline; }
 #about p + p, #experience p + p { margin-top: 12px; }
 #certificates { margin-bottom: 42px; }
 .credentials { color: var(--muted); padding-left: 1.1em; margin: 12px 0 0; }
+.project-note { width: fit-content; margin: 0 auto 12px; text-align: center; font: 1.4rem/1.2 "Bradley Hand", "Segoe Print", cursive; }
+.project-note svg { display: block; max-width: 100%; margin: 2px auto 0; }
 .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .project-image { display: grid; place-items: center; aspect-ratio: 16 / 10; overflow: hidden; border-radius: 10px; }
 .project-image { border: 1px solid var(--rule); background: #fff; }
@@ -46,6 +48,7 @@ footer { border-top: 1px solid var(--rule); }
   .overview { grid-template-columns: 1fr; gap: 28px; }
 }
 @media (max-width: 740px) {
+  .project-note svg { display: none; }
   .projects { grid-template-columns: 1fr; }
   .project-image { max-height: 320px; }
 }
