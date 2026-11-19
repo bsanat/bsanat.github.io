@@ -28,6 +28,7 @@ nav a { display: inline-flex; align-items: center; gap: 5px; min-height: 28px; t
 nav img { filter: brightness(0); }
 nav a:hover { text-decoration: underline; }
 .overview { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: clamp(24px, 4vw, 56px); padding-block: clamp(42px, 8vw, 100px); }
+.date { white-space: nowrap; }
 #about p + p, #experience p + p { margin-top: 12px; }
 #certificates { margin-bottom: 42px; }
 .credentials { color: var(--muted); padding-left: 1.1em; margin: 12px 0 0; }
@@ -41,8 +42,10 @@ nav a:hover { text-decoration: underline; }
 .source { display: inline-block; margin-top: 6px; }
 #skills { margin-block: 42px; }
 footer { border-top: 1px solid var(--rule); }
+@media (max-width: 960px) {
+  .overview { grid-template-columns: 1fr; gap: 28px; }
+}
 @media (max-width: 740px) {
-  .overview, .projects { grid-template-columns: 1fr; }
-  .overview { gap: 28px; }
+  .projects { grid-template-columns: 1fr; }
   .project-image { max-height: 320px; }
 }
